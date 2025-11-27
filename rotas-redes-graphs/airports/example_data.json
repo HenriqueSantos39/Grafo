@@ -1,0 +1,31 @@
+{
+  "airports": [
+    "GRU",
+    "GIG",
+    "BSB",
+    "SDU"
+  ],
+  "routes": [
+    {
+      "src": "GRU",
+      "dst": "GIG",
+      "time": 70,
+      "cost": 50.0,
+      "flight_id": "AZ100"
+    },
+    {
+      "src": "GRU",
+      "dst": "BSB",
+      "time": 100,
+      "cost": 80.0,
+      "flight_id": "AZ200"
+    },
+    {
+      "src": "BSB",
+      "dst": "GIG",
+      "time": 60,
+      "cost": 60.0,
+      "flight_id": "AZ300"
+    }
+  ]
+}
